@@ -1,0 +1,30 @@
+body {
+    background-color: #F7ECDE;
+}
+
+::selection {
+    background-color: #FEC260;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+    /* color: rgb(0, 164, 96); */
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.submit-button {
+    background-color: #D1512D;
+    transition: all 0.5s;
+}
+
+.submit-button:hover {
+    background-color: #d42e00;
+}
